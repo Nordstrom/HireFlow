@@ -1,5 +1,5 @@
 Hireme::Application.routes.draw do
-  root "candidates#index"
+  root :to => "candidates#index"
 
   resources :candidates
 end
